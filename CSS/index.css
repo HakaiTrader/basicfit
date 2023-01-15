@@ -328,7 +328,7 @@ a:hover {
 .fond-container-1 {
     display: flex;
     justify-content: center;
-    background-image: url(/images/fond-section1.jpg);
+    background-image: url(./images/fond-section1.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-clip: border-box;
@@ -606,7 +606,7 @@ a:hover {
 
 .image-basic {
 
-    background-image: url(/images/img-offre-1.webp);
+    background-image: url(./images/img-offre-1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
@@ -616,7 +616,7 @@ a:hover {
 }
 
 .image-premium {
-    background-image: url(/images/img-offre-2.webp);
+    background-image: url(./images/img-offre-2.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
@@ -626,7 +626,7 @@ a:hover {
 }
 
 .image-All-in {
-    background-image: url(/images/img-offre-3.webp);
+    background-image: url(./images/img-offre-3.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
@@ -681,7 +681,7 @@ a:hover {
 .All-in-menu-content ul li {
     font-size: 25px;
     list-style: none;
-    list-style-image: url(/images/diagonal-arrow.png);
+    list-style-image: url(./images/diagonal-arrow.png);
     margin-bottom: 20px;
 }
 
@@ -825,7 +825,7 @@ a:hover {
 }
 
 .corp-photo {
-    background-image: url(/images/corp1.jpg);
+    background-image: url(./images/corp1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 60%;
@@ -834,7 +834,7 @@ a:hover {
 }
 
 .corp-photo2 {
-    background-image: url(/images/corp2.jpg);
+    background-image: url(./images/corp2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 60%;
@@ -843,7 +843,7 @@ a:hover {
 }
 
 .corp-photo3 {
-    background-image: url(/images/corp3.jpg);
+    background-image: url(./images/corp3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 60%;
@@ -1002,7 +1002,7 @@ a:hover {
 }
 .imc{
     display: none;
-    background-image: url(/images/fitnessgirl.webp);
+    background-image: url(./images/fitnessgirl.webp);
     background-size: contain;
     background-repeat: no-repeat;
     height: 750px;
