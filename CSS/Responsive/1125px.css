@@ -1,0 +1,149 @@
+@media screen and (max-width: 1125px) {
+    /* MENU */
+    .menu-content{
+        justify-content: flex-end;
+    }
+    .menu{
+        justify-content: flex-start;
+    }
+    .menu-list{
+        display: none;
+    }
+    .menu-1025px {
+        display: block;
+        cursor: pointer;
+    }
+    .inscription-research{
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+    .inscription-1{
+        margin-right: 0;
+    }
+    .menu-1025px{
+        cursor: pointer;
+    }
+    .langage{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+
+    /* CONTAINER 1 */
+    .text-container-1{
+        flex-direction: column;
+        align-items: center;
+        width: 550px;
+    }
+    .title1,
+    .title2,
+    .title3{
+        font-size: 80px;
+    }
+    .title2{
+        margin-left: -170px;
+        margin-top: 5px;
+    }
+    .title3{
+        flex-wrap: wrap;
+        width: 450px;
+        padding-top: 20px;
+        line-height: 0.8;
+        margin-left: 35px;
+        font-size: 100px;
+    }
+    .title3 p {
+        font-size: 23px;
+        color: white;
+        width: auto;
+        height: auto;
+        padding: 50px 0 0 0;
+        transform: translate(-40px, 0px);
+        line-height: 1.3;
+    }
+    .inclinate-band{
+        height: 50px;
+        font-size: 25px;
+        bottom: 150px;
+    }
+    .avantages-details >*{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .avantages-details{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*****************************************/
+    .text-photo-cont6{
+
+        column-gap: none;
+    }
+    .cont6-photo img{
+
+        height: 700px;
+    }
+    .cont6-text{
+        padding: 100px 50px 0 50px;
+        width: 100%;
+    }
+    .cont6-text .inscription-1{
+        width: 100%;
+    }
+    .container-8{
+
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .container-7{
+        
+        display: block;
+        margin-top: 150px;
+        padding: 0 15px;
+    }
+    .corp-et-esprit{
+        width: 100%;
+    }
+    .corp-bloc{
+        transform: translate(0,-50px);
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    .container4{
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .abonnement-basic,
+    .abonnement-premium,
+    .abonnement-All-in {
+        
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .abonnement-basic:hover,
+    .abonnement-premium:hover,
+    .abonnement-All-in:hover {
+        
+        transform: translate(0);
+    }
+    .basic-menu,
+    .premium-menu,
+    .All-in-menu{
+        transform: translate(0,0)!important;
+        margin: 0 auto;
+        width: 85vw;
+    }
+    .image-All-in{
+
+        margin: 0 auto;
+    }
+}
