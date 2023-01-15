@@ -103,7 +103,7 @@ function changeFlag(){
             selectImg.src = "./images/Nederlands.svg"
             break;
         case "Basic-fit belgïe/belgique":
-            selectImg.src = "./images/Belgique.svg"
+            selectImg.src = "./images/belgique.svg"
             break;
         case "Basic-fit France":
             selectImg.src = "./images/France.svg"
