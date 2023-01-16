@@ -163,7 +163,7 @@ function handleObserverBottom(entries){
 
 const menuDetails = [...document.querySelectorAll('.image-basic, .image-premium, .image-All-in ')];
 
-const toTop = new IntersectionObserver(handleObserverTop,{rootMargin:'-30%'})
+const toTop = new IntersectionObserver(handleObserverTop,{rootMargin:'-5%'})
 menuDetails.forEach(el => toTop.observe(el))
 
 function handleObserverTop(entries){
