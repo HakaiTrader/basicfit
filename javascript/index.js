@@ -136,9 +136,11 @@ modalMenuLi.forEach(el => el.addEventListener('click', closeModalMenu))
 
 function openModalMenu(){
     modalMenu.style.display = "flex";
+    document.body.style.overflow = 'hidden';
 }
 function closeModalMenu() {
     modalMenu.style.display = 'none';
+    document.body.style.overflow = 'scroll';
 }
 
 /*******************/
